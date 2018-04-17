@@ -4,97 +4,129 @@ body {
     font-size: 18px;
     line-height: 150%;
     background-image: url("../images/dust_scratches.png");
-    background-color: "#4aaaa5";
-    color: #777777;
-    margin:0px;
+    
+   
 
 }
 
 header {
     height: 70px;
-    margin-bottom: 39px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, 'Times New Roman' , serif;
     background-color: #ffffff;
-    color:#ffffff;
-    
     
 }
+
+.name{
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
 h1{
     background-color: #4aaaa5;
-   margin-top: -7px; 
-   margin-left: 271px;
-    padding: 25px;
+    padding: 21.655px;
+    width: 228px;
+    color: #ffffff;
     float: left;
-    
+    margin: 0 auto;
+    margin-bottom: 35px;
     
     
 
 }   
 
  nav{
+     float: right;
      padding: 10px;
-     background-color: #ffffff;
-     border-color: #cccccc;
-     margin-right: 250px;
-    
+     margin-top: 16px;
      
  }
 
 nav a{
-    float: right;
-    padding: 10px;
-     
+    font-size: 15px;
+    color: #666666d6;
+    text-decoration: none;
+    padding:10px;
+   
 
+}
+ #link{
+    border-left: #6666661c;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right: #6666661c;
+    border-right-style: solid;
+    border-right-width: 1px;
  }
+ 
 
 .main-content {
-    padding:2px;
-    width: 960px;
+    width: 920px;
+    background-color: #ffffff;
+    padding: 20px;
     margin: 0 auto;
-       
-    border-color: #dddddd;
-    border-width: 1px;
-    background-color:#ffffff;
+    clear: both;
     
-    clear: left;
-    clear: right;
 }
 
 h2{
-    color:#4aaaa5;
-    margin-left: 33px;
-
+    color: #4aaaa5;
+    border-bottom: #80808087;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding-bottom: 17px;
 }
+
 #main-bio{
-    margin-bottom: 30px;
+    line-height: 45px;
+}
+
+#gallery{
 
 }
+
+#images{
+    
+    
+}
+
+h3{
+    background-color: #4aaaa5;
+    padding: 21.655px;
+    width: 228px;
+    color: #ffffff;
+    margin: 0 auto;
+    
+    
+   
+}
+
 
 #bio-image{
-    float:left;
-    margin-right: 28px;
-    margin-bottom: 11px;
-    margin-left: 33px;
-    margin-top: 15px;
+    float: left;
+    margin-right: 30px;
+
 }
 
 p1{
-    line-height: 30px;
+    font-size: 15px;
+    color: #777777;
+    
 }
 
 footer{
     padding: 30px;
     background-color: #666666;
     border-top-style: solid;
-    border-top-width: 5px;
+    border-top-width: 8px;
     border-top-color: #4aaaa5;
     position: fixed;
     width: 100%;
     bottom: 0;
-    clear:left;
+    left:0;
+    right:0;
+    clear: left;
 
 }
-
-
-
-
