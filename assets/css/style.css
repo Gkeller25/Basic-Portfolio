@@ -83,21 +83,84 @@ h2{
     line-height: 45px;
 }
 
-#gallery{
 
+
+#image1{
+    position: relative;
+    margin-bottom: 20px;
+    width: 150px;
 }
 
-#images{
-    
-    
+#image2{
+    position: relative;
+    margin-bottom: 20px;
+    width: 150px;
 }
+
+#image3{
+    position: relative;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+#image4{
+    position: relative;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+#image5{
+    position: relative;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+#tag1{
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 200px;
+  }  
+    
+  #tag2{
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 200px;
+  }  
+
+  #tag3{
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 200px;
+  }  
+
+  #tag4{
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 200px;
+  }  
+
+  #tag5{
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    padding: 0;
+    width: 200px;
+  }  
+
 
 h3{
-    background-color: #4aaaa5;
-    padding: 21.655px;
-    width: 228px;
+    text-align: center;
     color: #ffffff;
-    margin: 0 auto;
+    font-size: 14px;
+    
     
     
    
