@@ -3,10 +3,11 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     line-height: 150%;
-    background-image: url("../images/dust_scratches.png");
+    background-image: url("../images/triangular.png");
 }
 
 header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 70px;
     font-family: 'Georgia', Times, 'Times New Roman' , serif;
     background-color: #ffffff;    
@@ -19,6 +20,11 @@ header{
 }
 
 h1{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Exo', sans-serif;
     background-color: #4aaaa5;
     padding: 21.655px;
     width: 228px;
@@ -35,21 +41,17 @@ nav{
 
 nav a{
     font-size: 15px;
-    color: #666666d6;
+    color: #666666;
     text-decoration: none;
     padding:10px;
 }
-nav a:hover { color: #4aaaa5; }
-#link{
-    border-left: #6666661c;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right: #6666661c;
-    border-right-style: solid;
-    border-right-width: 1px;
+nav a:hover { 
+    color: #4aaaa5; 
+    background-color: #9b9b9b2f;
 }
- 
+
 .main-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 920px;
     background-color: #ffffff;
     padding: 20px;
@@ -58,6 +60,10 @@ nav a:hover { color: #4aaaa5; }
 }
 
 h2{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
     color: #4aaaa5;
     border-bottom: #80808087;
     border-bottom-style: solid;
@@ -68,79 +74,138 @@ h2{
 }
 
 #main-bio{
-    line-height: 45px;
+   overflow: auto; 
 }
+
+/*Following are Portfolio Gallery Styles*/
 
 #image1{
+    width: 225px;
     position: relative;
     margin-bottom: 20px;
 }
 
-#image2{
-    right: 460px;
+#image2{    
+    width: 225px;
     position: relative;
-    margin-bottom: 20px;
-    float: right;
-    bottom: 177px;
+    margin-bottom: 20px;       
 }
 
 #image3{
+    width: 225px;
     position: relative;
     margin-bottom: 20px;
 }
 
 #image4{
-    float: right;
+    float: left;
     position: relative;
     margin-bottom: 20px;
-    right: 460px;
-    bottom: 177px;
+    left: 275px;
+    bottom: 531px; 
 }
 
 #image5{
+    float: left;
+    bottom: 355px;
+    left: 50px;
     position: relative;
     margin-bottom: 20px;
 }
 
 #tag1{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
     position: absolute;
     bottom: 20px;
     background-color: #4aaaa5;
     padding: 0;
-    width: 200px;
+    width: 100%;
 }  
     
 #tag2{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
     position: absolute;
     bottom: 20px;
     background-color: #4aaaa5;
     padding: 0;
-    width: 200px;
+    width: 100%;
 }  
 
 #tag3{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
     position: absolute;
     bottom: 20px;
     background-color: #4aaaa5;
     padding: 0;
-    width: 200px;
+    width: 100%;
 }  
 
 #tag4{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
     position: absolute;
     bottom: 20px;
     background-color: #4aaaa5;
     padding: 0;
-    width: 200px;
+    width: 100%;
 }  
 
 #tag5{
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
     position: absolute;
     bottom: 20px;
     background-color: #4aaaa5;
     padding: 0;
-    width: 200px;
+    width: 100%;
 } 
+
+#misty{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#misty:hover + #tag1{
+    visibility: hidden;
+    
+}
+
+#city{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#city:hover + #tag2{
+    visibility: hidden;
+}
+
+#axe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#axe:hover + #tag3{
+    visibility: hidden;
+}
+
+#mountains{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mountains:hover + #tag4{
+    visibility: hidden;
+}
+
+#lightning{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#lightning:hover + #tag5{
+    visibility: hidden;
+}
+
+/*End of Portfolio Gallery Styles*/
+
 
 h3{
     text-align: center;
@@ -149,13 +214,23 @@ h3{
 }
 
 #bio-image{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     float: left;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 p1{
+    font-family: 'Exo', sans-serif;
     font-size: 15px;
     color:#666666;
+}
+p1::selection {
+    color: #ffffff;
+    background: #4aaaa5;
+  }
+
+p1:hover{
+
 }
 
 label{
@@ -192,6 +267,9 @@ label{
     width: 100px;
 }
 
+#submit:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 footer{
